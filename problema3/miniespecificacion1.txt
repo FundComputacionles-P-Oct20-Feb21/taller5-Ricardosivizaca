@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. Inicio
 //declaro variables
 2. dias1, i[0, n]
@@ -36,4 +37,44 @@
 33.               descuento <-- (porcentaje *  precioHabitacion/100)
 34.               pagoTotal  <-- subtotal - descuento
 35. Escribir "El subtotal a pagar es: "+subtotal +", el descuento es: " +descuento +" y el total a pagar es: " +pagoTotal
+=======
+1. Inicio
+//declaro variables
+2. dias1, i[0, n]
+3. dias2, i[0, n]
+4. dias3, i[0, n]
+5  diasHospedaje, i[0, n]
+6. descuento, i[0, n]
+7. porcentaje1, i[0, n]
+8. porcentaje2, i[0, n]
+9. porcentaje3, i[0, n]
+10. subtotal, d[0, n]
+11. precioHabitacion d[0, n]
+12. pagoTotal d[0, n]
+13. dias1 <-- 5
+14. dias2 <-- 10
+15. dias3 <-- 15
+16. porcentaje1 <-- 10
+17. porcentaje2 <-- 15
+18. porcentaje3 <-- 20
+
+//pido valores por teclado
+20. Escribir "Ingrese el numero de dias que se va a hospedar"
+21. Leer diasHospedaje
+22. Escribir "Ingrese el precio unitario de la habitacion"
+23. Leer precioHabitacion
+24. subtotal <-- (diasHospedaje * precioHabitacion)
+25. pagoTotal  <-- subtotal - descuento
+26. Si diasHospedaje > dias1 Entonces
+27.   descuento <-- (porcentaje1 * precioHabitacion/100)
+28.   pagoTotal  <-- subtotal - descuento
+29.      Si diasHospedaje > dias2 Entonces
+30.         descuento <-- (porcentaje2 * precioHabitacion/100)
+31.         pagoTotal  <-- subtotal - descuento
+32.            Si diasHospedaje > dias3 Entonces
+
+33.               descuento <-- (porcentaje *  precioHabitacion/100)
+34.               pagoTotal  <-- subtotal - descuento
+35. Escribir "El subtotal a pagar es: "+subtotal +", el descuento es: " +descuento +" y el total a pagar es: " +pagoTotal
+>>>>>>> 7dee6a68f9b663e1e7efd098bb41957969d86be9
 36. Fin

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. Inicio
  //variables
 
@@ -26,3 +27,33 @@
 16. Fin
 
 
+=======
+1. Inicio
+ //variables
+
+2. costo,d[0, n]
+3. unidades, i[0, n]
+4. preciounitario,d[0, n]
+5. descuento,i[0, n]
+
+//descuento
+6. descuento <-- 15
+
+//pido datos por teclado
+6.Escribir "precio unitario"
+7.Leer preciounitario
+8. Escrbir "nuemro de unidades"
+9. leer unidades
+
+//proceso
+10. costo <--( preciounitario * unidades) 
+11. Si unidades > 50 entonces
+12.  descuento <-- (costo * descuento)/100
+13.  costo <- costo-descuento
+14. Fin si
+15. Escribir "El costo con decuento del 15%" 
+
+16. Fin
+
+
+>>>>>>> 7dee6a68f9b663e1e7efd098bb41957969d86be9
